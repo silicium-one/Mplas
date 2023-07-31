@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" name="Mplas:jar">
-    <output-path>$USER_HOME$/Desktop/Mplas/plugins</output-path>
-    <root id="archive" name="Mplas.jar">
-      <element id="module-output" name="Mplas" />
-    </root>
-  </artifact>
-</component>
