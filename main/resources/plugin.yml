@@ -1,0 +1,52 @@
+name: Mplas
+version: '${project.version}'
+main: org.mplas.mplas.Mplas
+api-version: '1.20'
+softdepend:
+  - Luckperms
+commands:
+  mplas:
+    description: Вывести информацию о плагине
+    usage: /<command>
+    permission: mplas.help
+    aliases:
+  gm:
+    description: Поставить режим 0|1|2|3
+    permission: mplas.gamemode
+    usage: /<command>
+  broadcast:
+    description: Возможность писать объявления
+    permission: mplas.broadcast
+    usage: /<command> [сообщение]
+    aliases:
+      - bc
+  veip:
+    description: Посмотреть
+    usage: /<command>
+  bolt:
+    description: Вызвать молнию
+    permission: mplas.bolt
+    usage: /<command>
+  heal:
+    description: Вылечится
+    permission: mplas.heal
+    usage: /<command>
+  fly:
+    description: Включить полет
+    permission: mplas.fly
+    usage: /<command>
+permissions:
+  mplas.help:
+    description: комманда /mplas
+  mplas.reload:
+    description: комманда /mplas reload
+  mplas.gamemode:
+    description: комманда /gm 0|1|2|3
+  mplas.broadcast:
+    description: комманда /bc сообщение
+  mplas.bolt:
+    description: комманда /bolt игрок
+  mplas.heal:
+    description: комманда /heal
+  mplas.fly:
+    description: комманда /fly
